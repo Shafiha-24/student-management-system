@@ -1,40 +1,46 @@
 # 🎓 Student Management System
 
-A console-based Student Management System developed using **Core Java**. This project performs complete CRUD operations, stores data in a text file, and demonstrates object-oriented programming, file handling, collections, exception handling, comparators, and input validation.
+A **console-based Student Management System** developed using **Core Java**. The project performs complete CRUD operations, stores data using file handling, and demonstrates object-oriented programming, collections, comparators, exception handling, and input validation.
 
 ---
 
 ## ✨ Features
 
 - ➕ Add Student
-- 👀 View Students
+- 📋 View All Students
 - 🔍 Search Student by ID
 - ✏️ Update Student Details
 - ❌ Delete Student
 - 📊 Student Statistics
+  - Total Students
+  - Average Marks
+  - Highest Marks
+  - Lowest Marks
+  - Pass Percentage
 - 🔃 Sort Students
-  - By ID
+  - By ID (Ascending)
+  - By ID (Descending)
   - By Name
   - By Marks
   - By Age
   - By Department
-- 🏢 Search by Department
-- 🎯 Filter Students
-  - By Marks
-  - By Age
+- 🏢 Search Students by Department
+- 🎯 Filter Students by
+  - Age
+  - Marks
 - ✅ Input Validation
-- 💾 File-based Data Storage
+- 💾 Data Persistence using File Handling
 
 ---
 
 ## 🛠 Technologies Used
 
 - Java (Core Java)
-- OOP
-- Collections Framework
+- Object-Oriented Programming (OOP)
+- Collections Framework (ArrayList)
+- Comparator Interface
 - File Handling
 - Exception Handling
-- Comparator
 - Git
 - GitHub
 - Eclipse IDE
@@ -44,7 +50,7 @@ A console-based Student Management System developed using **Core Java**. This pr
 ## 📂 Project Structure
 
 ```
-StudentManagementSystem/
+StudentManagementSystem
 │
 ├── src/
 │   └── studentManagementSystem/
@@ -59,35 +65,37 @@ StudentManagementSystem/
 
 ---
 
-## 🚀 How to Run
+## ▶️ How to Run
 
 1. Clone the repository.
-2. Open the project in Eclipse.
+2. Open the project in Eclipse IDE.
 3. Run `Main.java`.
-4. Use the menu to perform operations.
+4. Use the console menu to perform student operations.
 
 ---
 
-## 📚 Concepts Demonstrated
+## 📚 Java Concepts Demonstrated
 
-- Object-Oriented Programming
+- Classes and Objects
 - Encapsulation
-- Collections (ArrayList)
+- Constructors
+- Collections
+- Comparator
 - File Handling
 - Exception Handling
-- Comparator Interface
 - CRUD Operations
 - Input Validation
-- Menu-driven Console Application
+- Menu-driven Programming
 
 ---
 
-## 🔮 Future Improvements
+## 🚀 Future Improvements
 
 - JDBC Integration
 - MySQL Database
 - Login Authentication
-- GUI using JavaFX or Swing
+- JavaFX/Swing GUI
+- Export Reports
 
 ---
 
@@ -95,4 +103,5 @@ StudentManagementSystem/
 
 **Shafiha Davaljigari**
 
-GitHub: https://github.com/Shafiha-24
+- GitHub: https://github.com/Shafiha-24
+- LinkedIn: https://www.linkedin.com/in/shafihadavaljigari
