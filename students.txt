@@ -1,3 +1,2 @@
-1,Hasini,20,CSD,92
-2,Lahithi,19,CSM,85
-3,Arpitha,18,CSD,80
+2,kiran,19,CSM,90.0
+1,alex,18,CSD,80.0

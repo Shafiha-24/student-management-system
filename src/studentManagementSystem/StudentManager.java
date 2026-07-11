@@ -19,8 +19,7 @@ import java.util.Comparator;
 public class StudentManager {
 	private static final String FILE_NAME = "students.txt";
 	private static final String TEMP_FILE = "temporary.txt";
-	private ArrayList<Student> al = new ArrayList<>();
-
+	
 //CRUD OPERATIONS
 	/**
 	 * Adds a new student to the file after validating the student ID for
@@ -793,6 +792,8 @@ public class StudentManager {
 	 * @return List of students
 	 */
 	public ArrayList<Student> getAllStudents() {
+		 ArrayList<Student> al = new ArrayList<>();
+
 		try (FileReader fr = new FileReader(FILE_NAME); BufferedReader br = new BufferedReader(fr)) {
 			String s = br.readLine();
 			while (s != null) {
